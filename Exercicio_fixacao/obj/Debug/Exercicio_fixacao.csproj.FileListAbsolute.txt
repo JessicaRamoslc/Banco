@@ -10,3 +10,6 @@ C:\Temp\projetos\Exercicio_fixacao\Banco\Exercicio_fixacao\obj\Debug\Exercicio_f
 C:\Users\748413\Documents\Banco\Exercicio_fixacao\bin\Debug\Exercicio_fixacao.exe.config
 C:\Users\748413\Documents\Banco\Exercicio_fixacao\obj\Debug\Exercicio_fixacao.exe
 C:\Users\748413\Documents\Banco\Exercicio_fixacao\obj\Debug\Exercicio_fixacao.pdb
+C:\Users\748413\Documents\Banco\Exercicio_fixacao\obj\Debug\Exercicio_fixacao.csprojResolveAssemblyReference.cache
+C:\Users\748413\Documents\Banco\Exercicio_fixacao\bin\Debug\Exercicio_fixacao.exe
+C:\Users\748413\Documents\Banco\Exercicio_fixacao\bin\Debug\Exercicio_fixacao.pdb

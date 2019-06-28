@@ -8,8 +8,8 @@ namespace Exercicio_fixacao
         static void Main(string[] args)
         {
             ContaBancaria conta;
-            Console.Write("Entre com o número da conta: ");
-            int numero = int.Parse(Console.ReadLine());
+            Console.Write("Entre com o número da sua conta corrente: ");
+            int num = int.Parse(Console.ReadLine());
 
             Console.Write("Entre o titular da conta: ");
             string titular = Console.ReadLine();
@@ -20,16 +20,14 @@ namespace Exercicio_fixacao
             {
                 Console.Write("Entre o valor depósito inicial: ");
                 double depositoInicial = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
-                   conta = new ContaBancaria(numero, titular, depositoInicial);
+                conta = new ContaBancaria(num, titular, depositoInicial);
             }
             else
             {
-                conta = new ContaBancaria(numero, titular);
+                conta = new ContaBancaria(num, titular);
             }
 
             
-            
-
             //Colocar na tela os dados da conta:
             Console.WriteLine();
             Console.WriteLine("Dados da conta: ");
@@ -51,6 +49,16 @@ namespace Exercicio_fixacao
             //Atualização de dados
             Console.WriteLine("Dados da conta atualizados: ");
             Console.WriteLine(conta);
+            //Repetir procedimentos:
+            Console.WriteLine("Deseja iniciar banco novamente?: (s/n)");
+            char resposta = char.Parse(Console.ReadLine());
+
+            if(resposta == 's' || resposta == 'S')
+            {
+                Console.WriteLine("Banco em atualização...");
+                
+            }
+
 
 
 
